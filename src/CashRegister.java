@@ -30,7 +30,7 @@ public class CashRegister implements ActionListener {
 
     //String selectedProductName; // Håller reda på vald produkt
     //double selectedProductPrice; //Håller reda på priset på den valda produkten
-    double totalSum = 0; //Håller koll på den totala summan
+    //double totalSum = 0; //Håller koll på den totala summan
 
 
     public CashRegister(){
@@ -142,7 +142,7 @@ public class CashRegister implements ActionListener {
         receipt.append("----------------------------------------------------\n");
         receipt.append("  \n");
         receipt.append("   \n");  
-        receipt.append("Total: " + totalSum +             " kr\n");  //Lagt till totalsumma som räknar ihop allt
+        receipt.append("Total:             \n");  //Lagt till totalsumma som räknar ihop allt
         receipt.append("                               \n");
         receipt.append("TACK FÖR DITT KÖP\n");
 
